@@ -12,7 +12,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Toast.makeText(this, "Toast from Plugin, " + R.class.getName(), Toast.LENGTH_LONG).show();
+		Toast.makeText(this, "Toast from Plugin, \n" + R.class.getName(), Toast.LENGTH_LONG).show();
 		TextView text = (TextView) findViewById(R.id.main_r_file_name);
 		String name = getApplicationContext().getClass().getName();
 		text.setText("getApplicationContext() \n" + name);

@@ -3,6 +3,6 @@
 
     <string name="app_name">TestPlugin</string>
     <string name="action_settings">Settings From Plugin !</string>
-    <string name="hello_world">Hello world From Plugin !</string>
+    <string name="hello_world">Hello world from Plugin !</string>
 
 </resources>
