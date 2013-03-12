@@ -8,11 +8,13 @@
  */
 package android.support.pf.app;
 
+import android.app.Application;
+
 /**
  * 
  * @author ZhangZhenli
  */
-public class PluginApplication {
+public class PluginApplication extends Application {
 
 	private static final String TAG = "PluginApplication.java";
 }
